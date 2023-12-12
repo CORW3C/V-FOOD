@@ -1,0 +1,204 @@
+/*Polices personnalisées*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Styles principaux*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo';
+    font-size: xx-large;
+}
+p, li{
+    font-size: medium;
+}
+.bloc_page{
+    display: flex;
+    flex-direction: column;
+    background: url(../img/background/rustic-wood-panel.jpg);
+}
+.titre{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.a_emporter{
+    color: brown;
+}
+mark{
+    font-size: medium;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-style: italic;
+    background-color: transparent;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: brown;
+}
+
+/*En-tête*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 243, 234);
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+header i{
+    font-size: 116px;
+    color: black;
+}
+
+/*Liens de navigation*/
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+.Mcdo_img{
+    margin-right: 20px;
+}
+.principal i{
+    margin-right: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    margin-right: 45px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+/*Le corps*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    border: 5px solid black;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+}
+.section_menu{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background: url(../img/background/istockphoto-1461123432-170667a.jpg)  repeat-y;
+    background-size: 100%;
+}
+.section_menu article{
+    width: 55%;
+    height: 55%;
+}
+.paragraphe{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: rgb(250, 243, 234);
+    padding: 5%;
+    text-align: center;
+}
+.paragraphe h1{
+    margin-bottom: 20px;
+    font-size: larger;
+    color: brown;
+}
+.nourritures{
+    display: flex;
+    justify-content: space-between;
+}
+.plats_principaux{
+    display: flex;
+    flex-direction: column;
+}
+.complement{
+    display: flex;
+    flex-direction: column;
+}
+.element{
+    font-size: medium;
+    color: black;
+    background-color: rgb(250, 243, 234);
+    border: 5px solid transparent;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.partie{
+    font-size: medium;
+    color: black;
+    background-color: rgb(250, 243, 234);
+    border: 5px solid transparent;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.produit_phare{
+    font-size: medium;
+    color: black;
+    background-color: rgb(250, 243, 234);
+    border: 5px solid transparent;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.produit_phare img{
+    background-color: brown;
+    border: 5px dashed brown;
+    border-radius: 40px;
+}
+.description_nuggets{
+    width: 180px;
+}
+
+/*Le pied de page*/
+
+.service_livraison{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-right: 0%;
+}
+.restez_connect{
+    display: flex;
+    margin-top: 5px;
+}
+.restez_connect i{
+    font-size: 100px;
+    margin: 20px;
+    color: rgb(250, 243, 234);
+}
+.service_livraison h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 160px;
+    border-top: 2px solid rgb(250, 243, 234);
+}
